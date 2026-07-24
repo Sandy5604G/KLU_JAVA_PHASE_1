@@ -1,11 +1,34 @@
-﻿*.class
+﻿# Java Compiled Classes
+*.class
 *.jar
+*.war
+*.ear
+
+# IDE Specific
 .idea/
 *.iml
+*.iws
 .vscode/
+.settings/
+.project
+.classpath
+*.swp
+*.swo
+
+# Build Output
 out/
 bin/
 target/
+build/
+dist/
+
+# Operating System Files
 .DS_Store
 Thumbs.db
+Desktop.ini
+
+# Logs & Temporary Files
 *.log
+*.tmp
+*.temp
+*.cache
